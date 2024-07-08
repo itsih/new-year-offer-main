@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -313,4 +312,302 @@
     letter-spacing: 0%;
     text-align: left;
     margin-bottom: 20px;
+}
+
+/* sale section */
+.sale-container{
+    width: 1377px;
+    height: 335px ;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 120px;
+    margin-bottom: 60px;
+}
+.sale-container h6{
+    width: 339.27px;
+    height: 37.41px;
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 30.96px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 30px;
+}
+.sale-container span{
+    color: red;
+}
+.sale-container h1{
+    width: 873.33px;
+    height: 117.39px;
+    font-family: Merriweather;
+    font-size: 92.88px;
+    font-weight: 900;
+    line-height: 91px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.sale-container p{
+    width: 1377px;
+    height: 123.84px;
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+/* discount section */
+.discount-container{
+    height: 854px;
+    width: 1706px;
+    margin: 0 auto;
+    margin-bottom: 120px;
+    margin-top: -100px;
+}
+.block{
+    width: 1706px;
+    height: 229px;
+    background-color:red;
+    margin-top: -250px;
+}
+.img-gift-discount{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.gift{
+    margin-top: 100px;
+    width: 874.82px;
+    height: 777.96px;
+    color: aliceblue;
+    margin-left: 70px;
+
+}
+.discount{
+    width:350px ;
+    height: 350px;
+    transform: rotate(-8.21deg);
+    margin-right: 150px;
+    margin-top: -150px;
+}
+
+/* Awasome-portfoliop-section */
+
+.awasome-container{
+    width: 1706px;
+    height: 1500px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+.awasome-container h5{
+    width: 247.68px;
+    height: 37.41px;
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 30.96px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.awasome-container h1{
+    width:730.14px;
+    height: 77.4px;
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 55px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: capitalize;
+}
+.awasome-container p{
+    width: 1155px;
+    height: 82.56px;
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 40px;
+}
+.img-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+/* shared value */
+.img-size{
+    width: 546.96px;
+    height: 580.5px;
+    border-radius: 16px;
+}
+/* subscribe section */
+.subscribe-container{
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    width:1706px;
+    height: 790px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 160px;
+}
+.subscribe-container img{
+    width: 169px;
+    height: 177px;
+}
+.subscribe-container h1{
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 61.92px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+    width:660.48px;
+    height: 77.4px;
+}
+.subscribe-container p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: center;
+    width: 1155px;
+    height: 82.56px;
+}
+.email{
+    display: flex;
+    border-radius: 50px;
+    width: 835.92px;
+}
+.email input{
+    width: 535.02px;
+    height: 92.88px;
+    border: none;
+    border-radius: 50px 0px 0px 50px;
+    color: rgba(7, 2, 17, 0.3);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding-left: 50px;
+}
+.email button{
+    width: 300.9px;
+    height: 92.88px;
+    border-radius: 0px 50px 50px 0px;
+    background: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+    border: none;
+}
+.footer{
+    width: 2539px;
+    height: 785.61px;
+    background-color: black;
+    color: white;
+}
+.add-cont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.address{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 30.96px;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: left;
+    width: 483.75px;
+    height: 103.2px;
+    margin-top: 155px;
+    margin-left: 255px;
+}
+.Contect{
+    width: 323.79px;
+    height: 103.2;
+    /* display: flex;
+    flex-wrap: wrap; */
+    color: rgb(255, 255, 255);
+    margin-top: 145px;
+    margin-right: 300px;
+}
+.img-con{
+    width: 30px;
+    height: 30px;
+}
+.Contect p{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 31px;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.phone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.web{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social-media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 100px;
+}
+.doc{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 70px;
+}
+.font{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 31px;
+font-weight: 500;
+line-height: 29px;
+letter-spacing: 0%;
+text-align: left;
+}
+.rights{
+    margin-left:250px;
+}
+.unsubscribe{
+    margin-right: 300px;
 }
