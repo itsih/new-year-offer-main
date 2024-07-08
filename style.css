@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+}
+/* greeting section */
+.greetings-section{
+    max-width: 1706px;
+    height: 774px;
+    margin: 0 auto;
+
+}
+.bg-img{
+    background-image: linear-gradient(180deg,black,transparent) ,url(./new-year-offer-resources-main/images/Banner\ Image.png);
+    width: 1706px;
+    height: 774px;
+    background-size: cover;
+    margin-top: 50px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+.bg-img p{
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+    font-size: 41.28px;
+    font-weight: 400;
+    line-height: 51.6px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.bg-img h1{
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+    font-size: 92.88px;
+    font-weight: 900;
+    line-height: 103.2px;
+    letter-spacing: 0%;
+    text-align: center;
+    width: 800px;
+    margin-top: 40px;
+}
+
+.offer-container{
+    width:900px;
+    height: 950px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top:50px;
+}
+.offer-container h1{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+    line-height: 107px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.offer-container p{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 10px
+}
+.offer-container h3{
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.offer-img{
+    background-image: url(./new-year-offer-resources-main/images/New\ Year\ Photo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+
+/* welcome section */
+.welcome-banner{
+    width:1706px;
+    height: 774px;
+    margin: 0 auto;
+    /* border: 2px solid black; */
+    background-image: linear-gradient(to right,black,transparent) ,url(./new-year-offer-resources-main/images/Vectorrr.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+    margin-bottom: 120px;
+}
+.welcome-text{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.welcome-text h1{
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+    font-size: 82.56px;
+    font-weight: 900;
+    line-height: 113.52px;
+    letter-spacing: 20%;
+    text-align: left;
+    width: 642px;
+    height: 176px;
+    margin-left: 30px;
+    margin-bottom: 60px;
+}
+.welcome-text p{
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 400px;
+    line-height: 38.7px;
+    letter-spacing: 0%;
+    text-align: left;
+    width: 830px;
+    height: 60px;
+    margin-left: 215px;
+    margin-bottom: 20px;
+}
+
+.welcome-text button{
+    margin-top: 50px;
+    margin-right: 340px;
+    width: 132.87px;
+    height: 30.96px;
+    border: none;
+    background:none;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;}
+.year-img{
+    background-image: url(./new-year-offer-resources-main/images/Group\ 70.png);
+    width: 450px;
+    height: 600px;
+    background-size: cover;
+    margin-right: 200px;
+}
+
+/* place section */
+.place-container{
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+    width: 1706px;
+    height: 621px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+    gap: 20px;
+    margin-bottom: 80px;
+}
+.place-container span{
+    color:rgb(255, 0, 0);
+}
+
+.place-container button{
+    /* Frame 1 */
+    position: relative;
+    width: 215.43px;
+    height: 72.24px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 32px 16px 32px;
+    background-color: rgb(255, 0, 0);
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-size: 26px;
+    font-weight: bold;
+    margin-top: 60px;
+}
+/* Coming Soon section */
+.coming-soon-container{
+    width: 1706px;
+    height: 597.27px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.nbo{
+
+    width:506.97px;
+    height: 328.95px;
+
+}
+.nbo h6{
+    color: rgb(255, 0, 0);
+    width: 267.03px;
+    height: 37.41px;
+    font-family: Inter;
+    font-size:30.96px;
+    font-weight: 500;
+    line-height: 37.41px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 16px;
+}
+.nbo h1{
+    width: 423.12px;
+    height: 77.4px;
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 61.92px;
+    font-weight: 900;
+    line-height: 77.4px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: capitalize;
+    margin-bottom: 22x;
+}
+.nbo p{
+    color: rgba(7, 2, 17, 0.6);
+    width:506.97px;
+    height:165.12px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding-top: 20px;
+    text-align: justify;
+}
+.img-border{
+   /* Ellipse 2 */
+    width: 597.27px;
+    height:597.27px;
+    left: 603px;
+    top: 3018px;
+    box-sizing: border-box;
+    border: 15px solid rgb(255, 0, 0);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-border img{
+   /* Ellipse 1 */
+    width: 470.6436px;
+    height: 470.6436px;
+    left: 652.08px;
+    right: -553.92px;
+    top: 3067.08px;
+    bottom: -2968.92px;
+}
+.HNY{
+ gap:20px;
+ margin-right: 40px;
+}
+.HNY h1{
+    width: 126px;
+    height: 58px;
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.HNY p{
+    width: 356.04px;
+    height: 123.84px;
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 41.28px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 20px;
+}
